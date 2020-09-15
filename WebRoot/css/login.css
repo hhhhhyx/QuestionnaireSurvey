@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.login-page{
+	margin: 0 auto;
+    width: 500px;
+    height: 180px;
+    margin-top: 10%;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+#all{
+    margin: 0 auto;
+    width: 1536px;
+}
+body{
+    margin: 0;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    background-color: skyblue;
+    text-align: center;
+}
+
+.top span{
+    color: white;
+    font-size: 25px;
+    line-height: 80px;
+}
+.title{
+    background-color: skyblue;
+    color: white;
+    display: inline-block;
+    padding: 0px,10px;
+    padding: 0px 10px;
+    width: 480px;
+    height: 40px;
+}
+
+.title span{
+    line-height: 40px;
+    float: left;
+    font-size: 20px;
+    font-family: STXihei;
+}
+
+.information li{
+    list-style: none;
+    margin: 8px 0px;
+}
+
+.information label{
+    width: 40px;
+    margin: 0px 10px;
+}
+
+.input{
+    width: 200px;
+    height: 27px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    text-indent: 10px;
+    cursor: pointer;
+    font-family: STXihei;
+}
+
+.input:hover{
+    width: 290px;
+    height: 27px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    text-indent: 10px;
+    cursor: pointer;
+    font-family: STXihei;
+}
+.login_button{
+    width: 260px;
+    height: 30px;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    border-radius: 0px;
+    background-color: skyblue;
+    cursor:pointer;
+}
+
+.login_button:hover{
+    width:361px;
+    height:40px;
+}
